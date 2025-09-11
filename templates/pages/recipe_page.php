@@ -52,6 +52,7 @@
     <main>
         <div class="modal hidden" id="modif_recipe"></div> <!-- frag_form_modif_recipe.php -->
         <div class="modal hidden" id="modif_comment"></div> <!-- frag_form_modif_comment.php -->
+        <div class="modal hidden" id="create_user"></div> <!-- frag_form_create_user.php -->
         <div class="banner-header">
             <h2 class="title-recipe-page">Recette</h2>
             <div> 
