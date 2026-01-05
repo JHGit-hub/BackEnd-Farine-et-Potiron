@@ -24,7 +24,7 @@ include_once "model/comment.php";
 $session = new Session();
 
 // Connexion PDO
-$pdo = new PDO("mysql:host=172.18.0.1;dbname=fep-juha;charset=UTF8", "fep-juha", "P*20ugbgni");
+$pdo = new PDO("mysql:host=ao2fxa.myd.infomaniak.com;dbname=ao2fxa_fep;charset=UTF8", "ao2fxa_Julien", "Vampire$2104");
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 

@@ -57,7 +57,7 @@
             <h2 class="title-recipe-page">Recette</h2>
             <div> 
             <?php
-                if ($session->idConnected() === $detail_recipe->get("user_id")->id()) {
+                if ($session->idConnected() == $detail_recipe->get("user_id")->id()) {
                     // On affiche le bouton modifier la recette 
                 ?>
                     <button class="modif-recipe-btn" onclick="showFormModifRecipe(<?= $detail_recipe->id() ?>, 'modif_recipe')">Modifier la recette</button>

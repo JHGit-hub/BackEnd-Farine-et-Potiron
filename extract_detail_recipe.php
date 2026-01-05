@@ -62,5 +62,6 @@ $detail_flour = $flour->getFlourDetail($reference);
 // On charge l'utilisateur connecté si la session est active, vide sinon
 $user = User::getCurrentUser();
 
+
 ////// Affichage de la page
-include "templates/pages/recipe_page.php";
+ include "templates/pages/recipe_page.php";

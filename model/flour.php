@@ -25,8 +25,8 @@ class Flour extends _model{
 
     protected $table = 'flours'; // nom de la table dans la bdd
 
-    protected static $apiFlourCatalogue = 'https://api.mywebecom.ovh/play/fep/catalogue.php'; // adresse URL de l'API du catalogue des farines
-    protected static $apiFlourDetail = 'https://api.mywebecom.ovh/play/fep/catalogue.php?ref='; // adresse URL de l'API du détail d'une farine (à compléter avec la référence de la farine)
+    protected static $apiFlourCatalogue = 'https://api-fep.julien-hardy.fr/catalogue.php'; // adresse URL de l'API du catalogue des farines
+    protected static $apiFlourDetail = 'https://api-fep.julien-hardy.fr/catalogue.php?ref='; // adresse URL de l'API du détail d'une farine (à compléter avec la référence de la farine)
 
 
     protected $champs = ["reference", "recipe_id", "quantity"]; // liste des champs dans la table (sans id)

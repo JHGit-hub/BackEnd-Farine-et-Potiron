@@ -15,7 +15,7 @@
 ?>
 
 <?php
-if ($session->isLogged() && $session->idConnected() !== $detail_recipe->get("user_id")->id()) {
+if ($session->isLogged() && $session->idConnected() != $detail_recipe->get("user_id")->id()) {
     $hasCommented = false; // initialisation de la variable $hasCommented
     foreach ($list_comments as $comment) {
         if ($session->idConnected() === $comment->get("user_id")->id()) {
